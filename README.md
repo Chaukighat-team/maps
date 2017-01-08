@@ -1,8 +1,7 @@
-
 <html>
   <body>
 
-	<h1>My First Google Map</h1>
+	<h1>Maps</h1>
 
 	<div id="map" style="width:100%;height:500px"></div>
 

@@ -1,63 +1,63 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- sremove-9caa494cf5dd5d66eb198271b9be17cc --><script></script><!-- sremove-end -->
+	<!-- sremove-ec54aaae5568947f433ab2c8d75fca91 --><script></script><!-- sremove-end -->
 <style>
-.button1 {
-    background-color: #0000FF; /* Green */
-    border: 2px solid red;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: center;
-}
-.button2 {
-    background-color: #4CAF50; /* Green */
-    border: 4px solid red;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: center;
-}
-.button:hover {background-color: #FF0000;}
-.button1 {border-radius: 8px;}
-
-.button:hover {background-color: #FF0000;}
-.button2 {border-radius: 8px;}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
 </style>
-</head>
-<center>
-<body style="background-color: pink;">
-	<img src="http://www.clipartbest.com/cliparts/9cz/xyq/9czxyq9oi.png" style=" width:50px; hight:45px"><img src="https://lh3.googleusercontent.com/XEqpLoy50w3ncsFs5aa1f0gmhj4dph6f86aRR1T1D2ef0Qk39hFx834Owi_BrXugKtyY-sYJ2WM3eg=w773-h147-rw-no"><img src="http://www.clipartbest.com/cliparts/9cz/xyq/9czxyq9oi.png" style=" width: 50px; hight:45px;">
-<a href="https://m.facebook.com/Raazoo0?ref=bookmarks"><button class="button2">My facebook page.</button></a>
- <p style="border-size:100%; border-style: double; border-color:blue; border-width: 6px;">
-		  <button class="button1">Home</button>
-		  <button class="button1">Home</button>
-		  <button class="button1">Home</button>
-		  <button class="button1">Home</button>
-		  <button class="button1">Home</button>
-		  <a href="https://www.google.com/maps/place/Chaukighat,+Mahadewa+56600,+Nepal/@26.4551766,87.6558038,11z/data=!4m2!3m1!1s0x39e583a96354484b:0x244e917972d0c0d3?hl=en">
-			<button class="button1">Home</button></a>
-  
-  <p style="border-size:100%; border-style: double; border-color:blue; border-width: 6px;">  
-		  shhduiisisigkflufykfifyifiydkidtktktdjtctuc
-  gjdgcktvykvykvkvykfkvkvkyvkfkyfkcykfkykktkkk
-  fjdkgdjgdkgfkfgkkcgkcgkcgkckfkgkckhcgkcgkvgk
-  jdtifiyyfofykffhkfhkfkfduuuduuduuueujnskdjhf
-  hduhdjdjjdhdjfjfufufufjfjjdjdididiidifiififj
-  shhduiisisigkflufykfifyifiydkidtktktdjtctuc
-  gjdgcktvykvykvkvykfkvkvkyvkfkyfkcykfkykktkkk
-  fjdkgdjgdkgfkfgkkcgkcgkcgkckfkgkckhcgkcgkvgk
-  jdtifiyyfofykffhkfhkfkfduuuduuduuueujnskdjhf
-  hduhdjdjjdhdjfjfufufufjfjjdjdididiidifiififj
-  shhduiisisigkflufykfifyifiydkidtktktdjtctuc
-  gjdgcktvykvykvkvykfkvkvkyvkfkyfkcykfkykktkkk
-  fjdkgdjgdkgfkfgkkcgkcgkcgkckfkgkckhcgkcgkvgk
-  jdtifiyyfofykffhkfhkfkfduuuduuduuueujnskdjhf
-	hduhdjdjjdhdjfjfufufufjfjjdjdididiidifiififj</p></center>
+  </head>
+  <body>
+
+	<div class="container">
+	  <br>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#myCarousel" data-slide-to="1"></li>
+  <li data-target="#myCarousel" data-slide-to="2"></li>
+  <li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+	<img src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg" alt="Chania">
+  </div>
+
+  <div class="item">
+	<img src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg" alt="Chania">
+  </div>
+
+  <div class="item">
+	<img src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg" alt="Flower">
+  </div>
+
+  <div class="item">
+	<img src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg" alt="Flower">
+  </div>
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</body>
+</html>
